@@ -6,7 +6,7 @@
         <parameter name="int1" value="10"></parameter>
         <parameter name="int2" value="5"></parameter>
         <classes>
-            <class name="testng.dataprovider.ParametersExample"></class>
+            <class name="testng.dataprovider.InheritedDataProvider"></class>
         </classes>
     </test>
 

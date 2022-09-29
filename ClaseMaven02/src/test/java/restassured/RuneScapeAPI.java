@@ -68,7 +68,7 @@ public class RuneScapeAPI {
                 .extract()
                 .response();
 
-        System.out.println("Llamada al API en : " + "https://services.runescape.com/m=itemdb_rs/api/catalogue/"  + "items.json?category=" + num + "&alpha=c&page=1");
+        System.out.println("Llamada al API en: " + "https://services.runescape.com/m=itemdb_rs/api/catalogue/"  + "items.json?category=" + num);
         System.out.println(response.getBody().prettyPrint());
     }
 
@@ -85,7 +85,7 @@ public class RuneScapeAPI {
                 .extract()
                 .response();
 
-        System.out.println("Llamada al API en : " + "https://services.runescape.com/m=itemdb_rs/api/catalogue/"  + "items.json?category=" + num + "&alpha=" + letra);
+        System.out.println("Llamada al API en: " + "https://services.runescape.com/m=itemdb_rs/api/catalogue/"  + "items.json?category=" + num + "&alpha=" + letra);
         System.out.println(response.getBody().prettyPrint());
     }
 
@@ -104,7 +104,7 @@ public class RuneScapeAPI {
                 .extract()
                 .response();
 
-        System.out.println("Llamada al API en : " + "https://services.runescape.com/m=itemdb_rs/api/catalogue/"  + "detail.json?item=" + ID);
+        System.out.println("Llamada al API en: " + "https://services.runescape.com/m=itemdb_rs/api/catalogue/"  + "detail.json?item=" + ID);
         System.out.println(response.getBody().prettyPrint());
     }
 }

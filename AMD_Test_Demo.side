@@ -1,0 +1,157 @@
+{
+  "id": "759e611e-c2fe-4595-96f4-66fcfa4eb883",
+  "version": "2.0",
+  "name": "Laserants Demo",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "39362aee-8628-435a-8ade-baef6d4d1103",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "5ee995bf-59da-4f17-b027-a639adaf54b5",
+    "name": "AMD Page",
+    "commands": [{
+      "id": "5a572241-e71c-409b-b891-99168694abe3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96407a0a-17f6-4e67-8535-027a33914ae9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x1392",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65a01570-f1ec-4d22-949a-5c5b17a2fd76",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "amd"
+    }, {
+      "id": "3192b1e1-5e2a-4417-9bad-62917b951af9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c49b7fb6-1957-482e-a4a1-4aef497105f2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'AMD ׀ Computación adaptativa y de alto rendimiento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56e436cf-722c-4435-b427-6b572db101ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'AMD ׀ Computación adaptativa y de alto rendimiento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaa8ada9-006a-4bfc-b1dd-0224a81a2bfe",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'AMD ׀ Computación adaptativa y de alto rendimiento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d830f71-22c0-46c8-a2f8-715bcbc0aef7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown:nth-child(1) .dropdown-submenu:nth-child(1) > .submenu-container li:nth-child(6) > a",
+      "targets": [
+        ["css=.dropdown:nth-child(1) .dropdown-submenu:nth-child(1) > .submenu-container li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Computadora de escritorio')]", "xpath:link"],
+        ["xpath=//nav[@id='block-amd-main-menu']/div/div/div/ul/li/ul/li/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/es/products/processors-desktop')]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b370f30-d0ec-44fe-9995-97ad914e1a91",
+      "comment": "",
+      "command": "click",
+      "target": "css=#paragraph-1427981 strong",
+      "targets": [
+        ["css=#paragraph-1427981 strong", "css:finder"],
+        ["xpath=//div[@id='paragraph-1427981']/div[2]/div/h3/a/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Procesadores AMD Ryzen™ Threadripper™ PRO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce51cd2d-26b7-4c3e-8fb0-a9166554e9af",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav-tabs > li:nth-child(3) > a",
+      "targets": [
+        ["css=.nav-tabs > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Arquitectura')])[3]", "xpath:link"],
+        ["xpath=//div[@id='scrollspy']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#Arquitectura-')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56adcb04-e230-4d59-80e6-bbda59460f4e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.nav-tabs > li:nth-child(3) > a",
+      "targets": [
+        ["css=.nav-tabs > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Arquitectura')])[3]", "xpath:link"],
+        ["xpath=//div[@id='scrollspy']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#Arquitectura-')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "852d42a3-5d1d-414e-97bd-60f09e2c005a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2b08c50c-20b3-4fa1-81d3-14ac38fb4fe8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["39362aee-8628-435a-8ade-baef6d4d1103"]
+  }],
+  "urls": ["https://www.youtube.com/", "https://www.google.com/"],
+  "plugins": []
+}
